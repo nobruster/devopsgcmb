@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-    - name: Instalacao do git
+    - name: Instalacao do git na maquina controle
       ansible.builtin.apt:
         name: git
         state: present
